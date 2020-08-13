@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import bd from './assets/k05.wav'
 import sn from './assets/s10.wav'
@@ -18,29 +18,7 @@ function App() {
      const [hihat2] = useSound(hh2)
      const [guitar] = useSound(gt)
   
-// useEffect(() => document.addEventListener('keypress', (e) => handleKeyPress(e.code)),[])
 
-     
-    
-//     function handleKeyPress(keyCode) {
-//       switch (keyCode) {
-//         case 'KeyD':
-//           kick();      
-//         console.log('kick'); 
-//           break;
-//           case 'KeyF':
-//             snare(); 
-//         break;
-//         case 'KeyJ':
-//             hihat(); 
-//         break;
-//         case 'KeyK':
-//             hihat2(); 
-//         break;
-//         default:
-//           break;
-//       }
-//     }
     
  
   
